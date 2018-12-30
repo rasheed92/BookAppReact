@@ -1,6 +1,6 @@
 # BookAppReact Final Task FikraCamps
 ## Task Feature Required
-<br>
+
 * User Login / Register.
 * Admin upload books with cover image, title, author and publish date by.
 * Only login user can download books.<br>
