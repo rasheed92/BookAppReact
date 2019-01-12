@@ -756,7 +756,7 @@ class Books extends React.Component {
             formData.append('file', BookFile)
             formData.append('downloads', book.downloads)
             axios({
-                    url: `https://books-store-backend2.herokuapp.com/api/book/edit/${book._id}`,
+                    url: `/api/book/edit/${book._id}`,
                     method: "POST",
                     data: formData
                 })
